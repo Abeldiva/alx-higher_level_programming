@@ -18,7 +18,7 @@ def pascal_triangle(n):
             if i == 0 or j == 0 or i == j:
                 row.append(1)
             else:
-                row.append(a[j] + l[j - 1])
+                row.append(a[j] + a[j - 1])
         a = row
         temp.append(row)
     return temp
