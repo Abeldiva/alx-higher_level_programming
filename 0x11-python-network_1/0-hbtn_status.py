@@ -5,7 +5,7 @@ Python script that fetches the url and displays the body"""
 
 import urllib.request
 
-url = "https://alu-intranet.hbtn.io/status"
+url = "https://alx-intranet.hbtn.io/status"
 
 with urllib.request.urlopen(url) as response:
     content = response.read()
